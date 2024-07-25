@@ -1,6 +1,6 @@
-<img src="./java/java-logo.png" width="200"/>
+<img src="./java/springboot.png" width="200"/>
 
-# 웹개발 - 스프링 부
+# 웹개발 - 스프링 부트
 ## 📒 마크다운 기본 사용법
 + https://www.markdownguide.org/basic-syntax/
 
