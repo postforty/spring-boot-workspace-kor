@@ -19,5 +19,5 @@
 ## 📄 수업 자료
 |Section|Title|Content|
 |-------|-----|-------|
-|1|Spring Boot|<a href="https://treasure-snow-23c.notion.site/Spring-Boot-DBMS-bdefd28703ec4fb59cafade153647322?pvs=4" target="_blank">바로가기</a>|
+|1|Spring Boot|<a href="https://treasure-snow-23c.notion.site/1-Spring-Boot-f174a603f9f04245b40d1e689bba0d36?pvs=4" target="_blank">바로가기</a>|
 
