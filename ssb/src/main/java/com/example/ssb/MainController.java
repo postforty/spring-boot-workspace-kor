@@ -11,6 +11,6 @@ public class MainController {
     @ResponseBody
     public String index() {
         System.out.println("index");
-        return "안녕하세요 sbb에 오신 것을 환영합니다.";
+        return "안녕하세요 스프링 부트 게시판에 오신 것을 환영합니다.";
     }
 }
