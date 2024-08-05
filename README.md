@@ -23,3 +23,7 @@
 |2|DI, Spring MVC|<a href="https://treasure-snow-23c.notion.site/2-DI-Spring-MVC-a13da653fd2b4461b430a7801f381960?pvs=4" target="_blank">바로가기</a>|
 |3|컨트롤러(Controller)|<a href="https://treasure-snow-23c.notion.site/3-Controller-5c7a0fb9b43f4b7a8dff2d7e400265cd?pvs=4" target="_blank">바로가기</a>|
 |4|뷰(View)|<a href="https://treasure-snow-23c.notion.site/4-View-d22e362204ab41798214890a1635c3c0?pvs=4" target="_blank">바로가기</a>|
+|5|모델(Model)|<a href="https://treasure-snow-23c.notion.site/5-Model-a8b0ace10ec842748a1c201c614aafe5?pvs=4" target="_blank">바로가기</a>|
+|6|JDBC|<a href="https://treasure-snow-23c.notion.site/6-JDBC-64a90c43e2584057afb48856f2e9d1b8?pvs=4" target="_blank">바로가기</a>|
+|7|MyBatis|<a href="https://treasure-snow-23c.notion.site/7-MyBatis-Logging-a96f9066f99847fc8d667d70ca2f9cf1?pvs=4" target="_blank">바로가기</a>|
+|8|Logging|<a href="https://treasure-snow-23c.notion.site/8-Logging-bd83c830b4e046f681f87efa782515b0?pvs=4" target="_blank">바로가기</a>|
