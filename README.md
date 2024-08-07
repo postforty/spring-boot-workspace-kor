@@ -28,4 +28,4 @@
 |7|MyBatis|<a href="https://treasure-snow-23c.notion.site/7-MyBatis-Logging-a96f9066f99847fc8d667d70ca2f9cf1?pvs=4" target="_blank">바로가기</a>|
 |8|Logging|<a href="https://treasure-snow-23c.notion.site/8-Logging-bd83c830b4e046f681f87efa782515b0?pvs=4" target="_blank">바로가기</a>|
 |9|SQL|<a href="https://treasure-snow-23c.notion.site/9-DDL-DML-DCL-7ce220905137465687f6efacbb428016?pvs=4" target="_blank">바로가기</a>|
-|9|SQL심화|<a href="https://treasure-snow-23c.notion.site/10-SQL-5e17a9d92e554cc0bbc75818c1eb10bf?pvs=4" target="_blank">바로가기</a>|
+|10|SQL심화|<a href="https://treasure-snow-23c.notion.site/10-SQL-5e17a9d92e554cc0bbc75818c1eb10bf?pvs=4" target="_blank">바로가기</a>|
