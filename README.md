@@ -29,3 +29,5 @@
 |8|Logging|<a href="https://treasure-snow-23c.notion.site/8-Logging-bd83c830b4e046f681f87efa782515b0?pvs=4" target="_blank">바로가기</a>|
 |9|SQL|<a href="https://treasure-snow-23c.notion.site/9-DDL-DML-DCL-7ce220905137465687f6efacbb428016?pvs=4" target="_blank">바로가기</a>|
 |10|SQL심화|<a href="https://treasure-snow-23c.notion.site/10-SQL-5e17a9d92e554cc0bbc75818c1eb10bf?pvs=4" target="_blank">바로가기</a>|
+|11|서비스(Service), 트랜잭션|<a href="https://treasure-snow-23c.notion.site/11-Service-891ea1febf0243219f8f7b6bb21dfd0c?pvs=4" target="_blank">바로가기</a>|
+|12|JPA|<a href="https://treasure-snow-23c.notion.site/12-JPA-8c00337af6e3488a8a93d495fc62a7f3?pvs=4" target="_blank">바로가기</a>|
