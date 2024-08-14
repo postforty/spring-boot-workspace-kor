@@ -1,5 +1,6 @@
-package com.example.ex25_security.auth;
+package com.example.ex27_security_status_check.auth;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -13,6 +14,9 @@ import org.springframework.security.web.SecurityFilterChain;
 @Configuration
 public class WebSecurityConfig {
 
+    @Autowired
+    private CustomAuthenticationFailureHandler customAuthenticationFailureHandler; // !
+
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.authorizeHttpRequests(authorizeRequests -> authorizeRequests
@@ -22,8 +26,18 @@ public class WebSecurityConfig {
                 .requestMatchers("/member/**").hasAnyRole("USER", "ADMIN")
                 .requestMatchers("/admin/**").hasRole("ADMIN")
                 .anyRequest().authenticated())
-                .formLogin(formLogin -> formLogin.permitAll())
-                .logout(logout -> logout.permitAll());
+                .formLogin(formLogin -> formLogin
+                                .loginPage("/login-form")
+                                .loginProcessingUrl("/security-check") // ! 추가
+                                .defaultSuccessUrl("/", true)
+                                // .failureUrl("/login-error")
+                                .failureHandler(customAuthenticationFailureHandler) // ! 추가
+                                .permitAll()
+                )
+                .logout(logout -> logout
+                            .logoutUrl("/logout")
+                            .logoutSuccessUrl("/login?logout")
+                            .permitAll());
 
         return http.build();
     }
