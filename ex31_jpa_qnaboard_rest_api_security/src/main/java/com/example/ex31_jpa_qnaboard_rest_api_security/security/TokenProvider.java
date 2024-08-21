@@ -10,6 +10,8 @@ import org.springframework.stereotype.Service;
 import com.example.ex31_jpa_qnaboard_rest_api_security.user.UserEntity;
 
 import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.SignatureAlgorithm;
 import io.jsonwebtoken.security.Keys;
 
 @Service
