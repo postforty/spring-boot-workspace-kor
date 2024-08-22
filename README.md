@@ -31,6 +31,11 @@
 |10|SQL심화|<a href="https://treasure-snow-23c.notion.site/10-SQL-5e17a9d92e554cc0bbc75818c1eb10bf?pvs=4" target="_blank">바로가기</a>|
 |11|서비스(Service), 트랜잭션|<a href="https://treasure-snow-23c.notion.site/11-Service-891ea1febf0243219f8f7b6bb21dfd0c?pvs=4" target="_blank">바로가기</a>|
 |12|JPA|<a href="https://treasure-snow-23c.notion.site/12-JPA-8c00337af6e3488a8a93d495fc62a7f3?pvs=4" target="_blank">바로가기</a>|
-|13|JPA|<a href="https://treasure-snow-23c.notion.site/12-JPA-8c00337af6e3488a8a93d495fc62a7f3?pvs=4" target="_blank">바로가기</a>|
-|14|시큐리티|<a href="https://treasure-snow-23c.notion.site/14-7a69700195ec43c287340660718449ed?pvs=4" target="_blank">바로가기</a>|
-|15|시큐리티|<a href="https://treasure-snow-23c.notion.site/15-d663669bc1f8437a9448940424e4b12f?pvs=4" target="_blank">바로가기</a>|
+|13|시큐리티|<a href="https://treasure-snow-23c.notion.site/13-7a69700195ec43c287340660718449ed?pvs=4" target="_blank">바로가기</a>|
+|14|시큐리티|<a href="https://treasure-snow-23c.notion.site/14-d663669bc1f8437a9448940424e4b12f?pvs=4" target="_blank">바로가기</a>|
+|15|시큐리티|<a href="https://treasure-snow-23c.notion.site/15-68211738cf9f41cc8b17b04358cf415c?pvs=4" target="_blank">바로가기</a>|
+|16|REST API|<a href="https://treasure-snow-23c.notion.site/15-68211738cf9f41cc8b17b04358cf415c?pvs=4" target="_blank">바로가기</a>|
+|17|REST API(Test)|<a href="https://treasure-snow-23c.notion.site/17-REST-API-Test-f086b4d6da134529930b6436ec604ad4?pvs=4" target="_blank">바로가기</a>|
+|18|게시판|<a href="https://treasure-snow-23c.notion.site/18-2bb2cb0bae1144dcb7b9f775a4eac46a?pvs=4" target="_blank">바로가기</a>|
+|19|게시판|<a href="https://treasure-snow-23c.notion.site/19-af4503268d7d4600a24e256619f91ac7?pvs=4">바로가기</a>|
+|20|게시판|<a href="https://treasure-snow-23c.notion.site/20-556318c7bcaf4b93a6c6847fb1e66b1f?pvs=4">바로가기</a>|
