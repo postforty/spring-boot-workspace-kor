@@ -54,7 +54,7 @@ public class QuestionService {
         this.questionRepository.save(q);
     }
 
-    // ! 질문 수정 추가
+    // ! 질문 수정
     public void modify(Question question, String subject, String content) {
         question.setSubject(subject);
         question.setContent(content);
@@ -62,7 +62,7 @@ public class QuestionService {
         this.questionRepository.save(question);
     }
 
-    // ! 질문 삭제 추가
+    // ! 질문 삭제
     public void delete(Question question) {
         this.questionRepository.delete(question);
     }
