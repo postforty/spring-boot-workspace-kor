@@ -29,7 +29,8 @@ public class WebSecurityConfig {
                                                                                                                       // 않음
                 )
                 .authorizeHttpRequests(authorizeRequests -> authorizeRequests
-                        .requestMatchers("/", "/auth/**", "/question/list/**").permitAll() // ! 인증이 필요 없는 경로 설정
+                        .requestMatchers("/", "/auth/**", "/question/list/**", "/swagger-ui/**", "/v3/api-docs/**")
+                        .permitAll() // ! 인증이 필요 없는 경로 설정
                         .anyRequest().authenticated() // 나머지 요청은 인증 필요
                 )
                 .formLogin(formLogin -> formLogin.disable()) // 폼 기반 로그인 비활성화

@@ -11,6 +11,9 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.example.ex32_jpa_qnaboard_swagger.security.TokenProvider;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.Parameter;
+import io.swagger.v3.oas.annotations.media.Schema;
 import lombok.RequiredArgsConstructor;
 
 @RequiredArgsConstructor
@@ -56,7 +59,9 @@ public class UserController {
     }
 
     @PostMapping("/signin")
-    public ResponseEntity<?> authenticate(@RequestBody UserDTO userDTO) {
+    @Operation(summary = "사용자 로그인", description = "이메일과 비밀번호로 로그인하여 인증 토큰을 받습니다.")
+    public ResponseEntity<?> authenticate(
+            @Parameter(description = "사용자의 이메일 주소", schema = @Schema(example = "{\"password\": \"1234\",\"email\": \"kim1@example.com\"}")) @RequestBody UserDTO userDTO) {
         try {
             UserEntity user = userService.getByCredentials(userDTO.getEmail(), userDTO.getPassword(), passwordEncoder);
 
